@@ -7,10 +7,12 @@ This project is a simple number guessing game implemented in x86-64 assembly. Th
 
 ## How to Build and Run
 1. Assemble and link the program using GCC:
+
    ```bash
    gcc main.s -no-pie -o number_guess
    ```
 2. Run the program:
+
    ```bash
    ./number_guess
    ```
@@ -20,16 +22,19 @@ Below are example runs of the program:
 
 ### Example Run 1: Correct Guess
 1. The program prompts the user to enter a configuration seed:
+
    ```
    Enter configuration seed: 42
    ```
 2. The program prompts for a guess:
+
    ```
    What is your guess? 7
    Incorrect.
    ```
 
 3. The user guesses correctly:
+
    ```
    What is your guess? 4
    Congratz! You won!
@@ -37,10 +42,12 @@ Below are example runs of the program:
 
 ### Example Run 2: Game Over
 1. The program prompts the user to enter a configuration seed:
+
    ```
    Enter configuration seed: 123
    ```
 2. The user makes 5 incorrect guesses:
+
    ```
    What is your guess? 2
    Incorrect.

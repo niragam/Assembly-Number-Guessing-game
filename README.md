@@ -1,12 +1,6 @@
 # Number Guessing Game (Assembly)
 
-This project is a simple number guessing game implemented in x86-64 assembly. The game prompts the user to input a seed for generating a random number and allows up to 5 guesses to correctly identify the random number between 0 and 10. The program terminates either when the user guesses the number correctly or runs out of attempts.
-
-## Features
-- Requests a seed value for random number generation.
-- Generates a random number between 0 and 10.
-- Allows up to 5 guesses.
-- Displays appropriate messages for correct guesses, incorrect guesses, and game over.
+This project is a simple number guessing game implemented in x86-64 assembly. The game prompts the user to input a seed for generating a random number and allows up to M guesses(M set to 5) to correctly identify the random number between 0 and N.(N set to 10) The program terminates either when the user guesses the number correctly or runs out of attempts.
 
 ## Requirements
 - GCC compiler (for assembling and linking the program)

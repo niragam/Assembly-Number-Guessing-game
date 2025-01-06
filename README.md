@@ -34,7 +34,7 @@ Below are example runs of the program:
    What is your guess? 7
    Incorrect.
    ```
-   (Repeats for several incorrect guesses)
+
 3. The user guesses correctly:
    ```
    What is your guess? 4
